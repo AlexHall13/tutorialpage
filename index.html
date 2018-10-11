@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Tutorial Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Giving you the basics of functions, arrays, and objects.">
+<style>
+</style>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-lg navbar-black bg-black" id="navStyle">
+                <a class="na√bar-brand" href="#">home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav" id="listStyle">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://drive.google.com/open?id=1H0NXl3rIgMjXLbY7bNeV9PKh8t2oqsgK">resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#function">function</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#object">object</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#array">array</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+    
+
+<div class="function"><h1>Functions</h1>
+<p>Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.</p>
+<p></p>
+<p></p>
+<p>function map(f, a) {</p>
+<p>var result = [],i;</p>
+<p>for (i = 0; i != a.length; i++)</p>
+<p>result[i] = f(a[i]);</p>
+<p>return result;
+      }</p></div>
+
+<h1>Objects</h1>
+<p>An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method. In addition to objects that are predefined in the browser, you can define your own objects. This chapter describes how to use objects, properties, functions, and methods, and how to create your own objects.</p>
+<p></p>
+<p></p>
+<p>let garden = {</p>
+ <p>vegetable: 'zucchini',</p>      
+ <p>flower: 'sunflower',</p>      
+ <p>fruit: 'grape',</p>      
+ <p>water: true,</p>      
+ <p>sun: true,</p>      
+ <p>size: 10,</p>      
+ <p>};</p>    
+    
+<p>let key = water;</p>
+      
+<p>Object.keys(garden).forEach(g => {</p>
+<p> if( key === g ){</p>
+<p>console.log(garden[key]);</p>
+ <p>         }</p>
+ <p>  })</p>
+
+
+<h1>Arrays</h1>
+<p>In JavaScript, array is a single variable that is used to store different elements. It is often used when we want to store list of elements and access them by a single variable. Unlike most languages where array is a reference to the multiple variable, in JavaScript array is a single variable that stores multiple elements. It's always important to keep in mind that the value starts at 0 in an array and not 1.</p>
+<p></p>
+<p>food.push('Pizza') // appends pizza to the end of the array</p>
+<p>//console.log(food);</p>
+<p>food.splice(1, 1, 'Bananas');   // (1 selects the value to replace, 1 how many values to replace, 'Bananas' is what to replace it with)</p>
+<p>console.log(food);</p>
+</body>
+
+<div class="footer"><p>© Alexander Productions  |  Last Edit: 10/2018  |  All Rights Reserved |  JavaScript Rules!</p>
+</html>
